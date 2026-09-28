@@ -127,7 +127,7 @@ TW_INCLUDE_FBE_METADATA_DECRYPT := true
 # verbatim in recovery.fstab - a near-match fails fscrypt policy lookup.
 # 2 selects USE_FSCRYPT_POLICY_V2 in libtar/Android.mk (anything but 1 does).
 TW_USE_FSCRYPT_POLICY := 2
-TW_FORCE_KEYMASTER_VER := true
+#TW_FORCE_KEYMASTER_VER := true
 TW_INCLUDE_LIBRESETPROP := true
 
 # Display - 1220x2712 @450dpi, backlight scale is 0-16181 (not the usual 0-255)
